@@ -261,3 +261,39 @@ img.my_profile {
     background-color: rgba(0, 0, 0, 0.6);
     transition-delay: 0.2s;
 }
+
+@media (max-width: 720px) {
+    .right-section {
+        width: 100px;
+    }
+   }
+   @media (max-width: 720px) {
+       button.create {
+           display: none;
+       }
+      }
+ @media (max-width: 630px) {
+     .notification {
+         display: none;
+     }
+    }
+ @media (max-width: 630px) {
+     .right-section {
+        width: 60px;
+     }
+    }
+    
+@media (max-width: 630px) {
+        div.profile {
+            position: absolute;
+            right: 10px;
+        }
+        .right-section {
+           width: 40px;
+        }
+}
+@media (max-width: 530px) {
+     .voice-button {
+        display: none;
+     }
+    }
