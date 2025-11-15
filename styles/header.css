@@ -297,3 +297,9 @@ img.my_profile {
         display: none;
      }
     }
+@media (max-width: 488px) {
+     input.search {
+        margin-left: 5px;
+     }
+    }
+
